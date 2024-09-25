@@ -49,6 +49,8 @@ body {
 
 /*   background-color: #ff7474; */
 background-image: url(img/fondo.png); 
+background-repeat:no-repeat;
+background-size: cover;
   height: 10px;
 }
 
