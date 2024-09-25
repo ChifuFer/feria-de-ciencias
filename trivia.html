@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trivia sobre Papel Reciclado</title>
+<link rel="stylesheet" href="estilotrivia.css">
+<link rel="icon" type="imagen/x-icon" href="img/2.png">
+</head>
+<body>
+<div class="container">
+  <h1>Trivia sobre Papel Reciclado</h1>
+   <nav>
+         <ul>
+           <li><a href="trivia.html" target="blank">INICIAR</a></li> 
+           <li><a href="index.html" target="blank">VOLVER</a></li> 
+         </ul>
+     </nav>
+  <div id="question1" class="question">
+    <p>1. ¿Cuál es uno de los principales beneficios ambientales de reciclar papel?</p>
+    <ul class="options">
+      <li><input type="radio" name="q1" value="a">Reduce la tala de árboles</li>
+      <li><input type="radio" name="q1" value="b">Aumenta la contaminación</li>
+      <li><input type="radio" name="q1" value="c">Disminuye la vida silvestre</li>
+    </ul>
+  </div>
+  <div id="question2" class="question">
+    <p>2. ¿Qué porcentaje de papel se puede reciclar en promedio?</p>
+    <ul class="options">
+      <li><input type="radio" name="q2" value="a">10%</li>
+      <li><input type="radio" name="q2" value="b">50%</li>
+      <li><input type="radio" name="q2" value="c">70%</li>
+    </ul>
+  </div>
+  <div id="question3" class="question">
+    <p>3. ¿Cuál es el proceso principal para reciclar papel?</p>
+    <ul class="options">
+      <li><input type="radio" name="q3" value="a">Compostaje</li>
+      <li><input type="radio" name="q3" value="b">Incineración</li>
+      <li><input type="radio" name="q3" value="c">Pulpeado y refinado</li>
+    </ul>
+  </div>
+  <div id="question4" class="question">
+    <p>4. ¿Cuál de los siguientes tipos de papel NO se puede reciclar?</p>
+    <ul class="options">
+      <li><input type="radio" name="q4" value="a">Papel de oficina</li>
+      <li><input type="radio" name="q4" value="b">Papel encerado</li>
+      <li><input type="radio" name="q4" value="c">Papel de periódico</li>
+    </ul>
+  </div>
+  <div id="question5" class="question">
+    <p>5. ¿Cuál es uno de los ingredientes principales del proceso de fabricación de papel reciclado?</p>
+    <ul class="options">
+      <li><input type="radio" name="q5" value="a">Celulosa virgen</li>
+      <li><input type="radio" name="q5" value="b">Tinta</li>
+      <li><input type="radio" name="q5" value="c">Cloro</li>
+    </ul>
+  </div>
+  <div id="question6" class="question">
+    <p>6. ¿Cuál es el uso del papel reciclado?</p>
+    <ul class="options">
+      <li><input type="radio" name="q6" value="a">Crear pelotas de papel</li>
+      <li><input type="radio" name="q6" value="b">Tener el mismo uso que un papel normal</li>
+      <li><input type="radio" name="q6" value="c">Construir una casa</li>
+
+    </ul>
+  </div>
+  <button onclick="checkAnswers()">Comprobar respuestas</button>
+  <p id="result"></p>
+</div>
+ <div> 
+  <label>Puntua a la pagina del 1 al 10</label>
+  <input type="number">
+  <h2>Muchas gracias por su atencion</h2>
+</div>
+
+  
+<script src="javascripttrivia.js"></script>
+</body>
+</html>
