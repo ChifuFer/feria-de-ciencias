@@ -47,7 +47,8 @@ header {
 
 body {
 
-  background-color: #ff7474;
+/*   background-color: #ff7474; */
+background-image: url(img/fondo.png); 
   height: 10px;
 }
 
