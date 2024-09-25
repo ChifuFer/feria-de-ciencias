@@ -93,8 +93,6 @@ div {
 footer  {
   display: grid;
   grid-template-columns:1fr 1fr ;
-  background-color: #7d7a7a6b;
-  height: 300px;
   text-align: center;
   align-content: center;
   position: relative;
